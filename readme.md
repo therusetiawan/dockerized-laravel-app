@@ -15,7 +15,7 @@ Clone the project
 
 Run `docker-compose up -d`
 
-This will build three docker container
+This will build two docker container
 
 app, webserver
 
