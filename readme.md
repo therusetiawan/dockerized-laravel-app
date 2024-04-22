@@ -22,7 +22,7 @@ app, webserver
 Run composer install
 
 ```
-docker-compose exec composer install
+docker-compose exec app composer install
 ```
 
 Generate app key
