@@ -19,6 +19,12 @@ This will build two docker container
 
 app, webserver
 
+Run composer install
+
+```
+docker-compose exec composer install
+```
+
 Generate app key
 
 ```
