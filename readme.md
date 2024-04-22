@@ -17,7 +17,7 @@ Run `docker-compose up -d`
 
 This will build three docker container
 
-app, db, webserver
+app, webserver
 
 Generate app key
 
@@ -25,7 +25,7 @@ Generate app key
 docker-compose exec app php artisan key:generate
 ```
 
-Cache configurations
+Database migration
 ```
-docker-compose exec app php artisan config:cache
+docker-compose exec app php artisan migrate
 ```
