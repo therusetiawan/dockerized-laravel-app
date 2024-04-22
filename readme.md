@@ -29,12 +29,3 @@ Cache configurations
 ```
 docker-compose exec app php artisan config:cache
 ```
-
-Enter the database and login to mysql
-```
-docker-compose exec db bash
-
-mysql -u root -p
-```
-make use of the password defined inside the `docker-compose.yml` file.
-
